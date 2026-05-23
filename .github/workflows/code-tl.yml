@@ -3,7 +3,7 @@ name: 📁Youtube Downloader
 on:
   workflow_dispatch:
     inputs:
-      youtube_urls:
+      youtube_urls:https://youtu.be/Sx6zbHmrd7U?si=0qfxVXA4rf9RpJpV
         description: '🔗 YouTube video URL(s) — separate multiple URLs with spaces'
         required: true
         type: string
@@ -14,7 +14,7 @@ on:
         type: boolean
       quality:
         description: '🎬 Video quality'
-        required: false
+        required: 720p
         default: 'best'
         type: choice
         options:
